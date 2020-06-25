@@ -53,6 +53,6 @@ func addBinary(a string, b string) string {
 	return res
 }
 
-func parseInt(s byte) uint8 {
-	return uint8(s) - 48
+func parseInt(s byte) byte {
+	return s - 48
 }
